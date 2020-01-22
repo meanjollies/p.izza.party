@@ -1,3 +1,4 @@
+# Required parameters
 variable "droplet_image" {
   type        = string
   description = "The Droplet image ID or slug."

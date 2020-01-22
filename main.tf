@@ -1,3 +1,4 @@
+# Create Mastodon instance to host p.izza.party
 resource "digitalocean_droplet" "droplet" {
   image    = var.droplet_image
   name     = var.droplet_name
