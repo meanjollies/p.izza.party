@@ -23,3 +23,18 @@ variable "droplet_ipv6" {
   type        = bool
   description = "Boolean controlling if IPv6 is enabled."
 }
+
+variable "firewall_name" {
+  type        = string
+  description = "The firewall name."
+}
+
+variable "whitelisted_addresses" {
+  type        = list(string)
+  description = "A list of addresses allowed access into the droplet."
+}
+
+variable "ssh_port" {
+  type        = string
+  description = "The SSH access port."
+}

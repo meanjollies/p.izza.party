@@ -4,3 +4,4 @@ droplet_name   = "p.izza.party"
 droplet_region = "fra1"
 droplet_size   = "s-1vcpu-2gb"
 droplet_ipv6   = true
+firewall_name  = "p.izza.party"
