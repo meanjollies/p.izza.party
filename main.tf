@@ -8,6 +8,7 @@ resource "digitalocean_droplet" "droplet" {
   ssh_keys = [ data.digitalocean_ssh_key.public.id ]
 }
 
+# Create the firewall and assign the p.izza.party droplet to it
 resource "digitalocean_firewall" "firewall" {
   name = var.firewall_name
 
